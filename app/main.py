@@ -1,5 +1,7 @@
 //1月6日　作成者　nao.0516
 
+# app/main.py
+>>>>>>> 1bdf4de (Initial FastAPI backend for Swappy)
 from fastapi import FastAPI
 from app.api import rooms, answers
 from app.ws.room_ws import router as ws_router
